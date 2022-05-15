@@ -1,17 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-   
+    /* font-family: 'Poppins', sans-serif; */
 }  
-
 #application{
-    padding: 30px 100px;
-    margin: 50px 70px;
-    
-   
+    margin: 30px 100px;
 }
-    /* Start of header css */
+/* Start of header css */
 header{
     display: flex;
     flex-direction: row;
@@ -42,6 +37,7 @@ header{
 }
 .nav li{
     padding: 15px;
+  
 }
 .nav a{
     color: #000000;
@@ -69,8 +65,9 @@ header{
     color: #fff;
     background: #1b7541;
     border-radius: 5px;
-}
+    /* border-bottom: 5px solid #1b7541; */
 
+}
 /* end of header css */
 
 /* start of Search-section css */
@@ -97,15 +94,14 @@ header{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items: center;
-    margin: 10px 0px;
+    margin: 40px 0px;
  }
  .introduction-image{
     background-image: url("https://cdn.pixabay.com/photo/2019/08/21/02/51/block-chain-4420011_960_720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 50%;
+    width: 47%;
     border-radius: 5px;
     display: flex;
     justify-content: flex-start;
@@ -115,9 +111,132 @@ header{
 
  .homepage-headings h2{
     color: #fff;
-    width: 55%;
+    width: 50%;
     padding: 0px 30px;
-    line-height: 25px;
     font-weight: bold;
     font-size: 25px;
+    font-family: sans-serif;
+    
  } 
+ .heading-bar
+ {
+     border-bottom: 3px solid #1b7541;
+     width: 10%;
+    margin-left:30px ;
+    margin-top: 15px;
+    border-radius: 10px;
+ }
+ .introduction-text{
+     display: flex;
+     flex-direction: column;
+     width: 47%;
+ }
+ .profile{
+     display: flex;
+     align-items: center;
+ }
+ .profile img{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+ }
+ .profile p{
+    font-weight: bold;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+ }
+ .Company-button{
+     border:none ;
+     outline: none;
+     background-color: #1b7541;
+     padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+ .Company-button a{
+     color: #fff;
+     text-decoration: none;
+
+ }
+ .intro-heading h1{
+    font-size: 31px;
+    margin-bottom: 10px;
+ }
+ .intro-description p{
+     font-size: 18px ;
+     line-height: 25px;
+     opacity: 0.75;
+     margin: 10px 0px;
+
+ }
+ /* end of introduction-section css */
+ /* start of engineering-section css */
+ .engineering-title{
+     display: flex;
+     justify-content: space-between;
+     margin: 30px 0px;
+ }
+ .engineering-bar{
+     display: flex;
+ }
+ .engineering-bar h1{
+     font-size: 30px ;
+     font-weight: bold;
+ }
+ .eng-bar{
+     border:2px solid #1b7541 ;
+     border-radius: 5px;
+     margin-right: 10px;
+ }
+ .engineering-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+ }
+ .engineering-img{
+    background: url(https://cloudcomputinggate.com/wp-content/uploads/2022/03/AWS-Cloud-Foundation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.Aws-wrapper{
+    width: 47%;
+}
+ .engineering-link a{
+     color: #1b7541;
+     
+ }
+ .engineering-heading{
+    padding: 30px;   
+ }
+ .engineering-heading p{
+     color: #1b7541;
+     font-weight: bolder;
+     margin: 10px 0px;
+ }
+ .engineering-heading h2{
+     color: #fff;
+ }
+ .eng-title{
+     font-size: 23px !important;
+ }
+ .eng-margin{
+     margin-top: 18px;
+ }
+ 
+ .right-img{
+    position: relative;
+    left: 5%;
+    z-index: 1;
+ }
+ .left-img{
+    position: absolute;
+    border: 3px solid #fff;
+    z-index: 2;
+ }
+ /* end of engineering-section css */

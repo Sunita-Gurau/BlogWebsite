@@ -1,0 +1,113 @@
+@media only screen and (max-width: 991px)
+{
+
+   
+    
+}
+    
+    @media only screen and (min-width: 991px)
+    {
+    
+    
+    
+    }
+    
+    
+    @media only screen and (max-width: 768px)
+    {
+        header{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .nav li{
+            font-size: 13px;
+        }
+        .nav-buttons button a{
+            font-size: 13px;
+        }
+        #Introduction-section{
+            display: flex;
+            flex-direction: column;
+            
+         }
+         .introduction-image{
+             width:100%;
+         }
+         .introduction-text{
+           margin-bottom: 20px;
+            width: 100%;
+        }
+        .engineering-wrapper{
+            display: flex;
+            flex-direction: column;
+         }
+         .Aws-wrapper{
+            width: 100%;
+        }
+        .growthmarketing-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        .growthmarketing-content{
+            width: 100%;
+        
+        }
+        .signup-form{
+            width: 100%;
+            margin: 20px 0px;
+           
+        }
+    }
+    
+    @media only screen and (max-width: 576px)
+    {
+        #Search-section{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items: center;
+        }
+        .nav li{
+            font-size: 12px;
+        }
+        .nav-buttons button a{
+            font-size: 12px;
+        }
+        #Introduction-section{
+            display: flex;
+            flex-direction: column;
+            
+         }
+         .introduction-image{
+             width:100%;
+         }
+         .introduction-text{
+           margin-bottom: 20px;
+            width: 100%;
+        }
+        .engineering-wrapper{
+            display: flex;
+            flex-direction: column;
+         }
+         .Aws-wrapper{
+            width: 100%;
+        }
+        .Aws-wrapper{
+            width: 100%;
+        }
+        .growthmarketing-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        .growthmarketing-content{
+            width: 100%;
+        
+        }
+        .signup-form{
+            width: 100%;
+            margin: 20px 0px;
+           
+        }
+    }
+    
